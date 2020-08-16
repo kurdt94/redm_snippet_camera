@@ -15,6 +15,7 @@ end
 function DoEndCam()
     print("end camera")
     DestroyCam(cam, true)
+    cam = false
     -- Citizen.InvokeNative(0x163600D6E136C9F8,true) -- DESTROY_ALL_CAMS
 end
 
